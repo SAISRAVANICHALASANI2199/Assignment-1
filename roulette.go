@@ -32,7 +32,6 @@ func main() {
 			if j == 1 {
 				fmt.Println("black and red")
 				fmt.Scanf("%s\n", &k)
-				//checks for even and odd
 				if k == "red" || k == "black" {
 					if u%2 == 0 && k == "red" {
 						fmt.Println("red! You won :", o)
